@@ -324,6 +324,10 @@ h2 {
     text-align: justify;
   }
 
+  .card-title{
+    color: #002E5D;
+  }
+
 /* contacto */
 #contacto {
     text-align: center;
