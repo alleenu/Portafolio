@@ -354,12 +354,6 @@ h2 {
     transform: rotate(360deg);
 }
 
-section#inicio,
-section#hablemos{
-  margin-bottom: 20px;
-}
-
-
 /* Footer */
 #mainfooter {
     text-align: center;
