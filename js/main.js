@@ -7,6 +7,19 @@ toggleBtn.addEventListener("click", function() {
   nav.classList.toggle("open");
 });
 
+
+function scrollToSection(event, sectionId) {
+  event.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
+
+  const section = document.getElementById(sectionId);
+  const yOffset = -80; // Ajusta el valor para personalizar el desplazamiento vertical
+
+  window.scrollTo({
+    top: section.getBoundingClientRect().top + window.pageYOffset + yOffset,
+    behavior: 'smooth'
+  });
+}
+
 // Texto que deseas mostrar
 const text = "Soy Alleen";
 

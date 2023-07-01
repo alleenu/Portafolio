@@ -11,8 +11,6 @@
     margin: 0;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
-    /* Para que el scrolleo en la one page sea suave */
-    scroll-behavior: smooth;
 }
 
 body {
@@ -20,12 +18,6 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     line-height: 1.2;
-    color: #0f0f0f;
-}
-
-main {
-    max-width: 1200px;
-    margin: auto;
 }
 
 .hero-header {
@@ -207,6 +199,7 @@ nav .navlinks li a {
    
 }
 
+
 /* Hablemos */
 #hablemos {
     background-color: #002E5D;
@@ -271,10 +264,10 @@ h2 {
     transform: translateY(0);
 }
 
-/*portfolio*/
+/*portafolio*/
 
-.mis-proyectos .title {
-    margin-bottom: 20px;
+.mis-proyectos .title{
+    margin-bottom: 50px;
   }
 
 .mis-proyectos {
@@ -359,6 +352,11 @@ h2 {
 
 .contacto-box img:hover {
     transform: rotate(360deg);
+}
+
+section#inicio,
+section#hablemos{
+  margin-bottom: 40px;
 }
 
 
